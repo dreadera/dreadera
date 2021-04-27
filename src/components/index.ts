@@ -1,3 +1,3 @@
-export { default as Page } from "./page";
-export { default as Header } from "./header";
-export { default as Links } from "./links";
+export { default as Crop } from './crop';
+export { default as Dots } from './dots';
+export { default as Title } from './title';

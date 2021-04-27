@@ -1,0 +1,23 @@
+.crop {
+  height: 100vh;
+}
+
+.crop .top {
+  background: rgb(0, 0, 0);
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.crop .bottom {
+  background: rgb(0, 0, 0);
+  height: 60px;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+}

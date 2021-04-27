@@ -1,0 +1,20 @@
+.title {
+  position: fixed;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+
+  z-index: 1337;
+
+  font-family: 'Major Mono Display', monospace;
+  color: #ff5a5a;
+
+  font-size: 30px;
+
+  text-align: center;
+  text-shadow: 0 0 10px #ff5a5a;
+}
