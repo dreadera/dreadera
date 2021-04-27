@@ -12,6 +12,10 @@ ReactDOM.render(
   document.getElementById('root'),
 );
 
+/**
+ * if hot-loading is available. enable it.
+ */
+
 if (import.meta.hot) {
   import.meta.hot.accept();
 }
