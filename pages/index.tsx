@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
+import { Icons } from '@dreadera/components'
+
 const Home: NextPage = () => (
     <div>
         <Head>
@@ -9,7 +11,9 @@ const Home: NextPage = () => (
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <main />
+        <div>
+            <Icons size={30} type="github" />
+        </div>
     </div>
 )
 

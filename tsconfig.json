@@ -18,6 +18,7 @@
         "paths": {
             "@dreadera/*": ["./src/*"],
             "@dreadera/pages/": ["./pages/*"],
+            "@dreadera/types": ["./src/types.ts"],
         
         }
   },
