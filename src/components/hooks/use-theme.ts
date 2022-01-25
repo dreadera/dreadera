@@ -7,3 +7,4 @@ const useTheme = (props: Props) => {
 }
 
 export { useTheme }
+export type { Props as ThemeProps }

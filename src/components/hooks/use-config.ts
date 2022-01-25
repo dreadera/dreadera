@@ -7,3 +7,4 @@ const useConfig = (props: Props) => {
 }
 
 export { useConfig }
+export type { Props as ConfigProps }
