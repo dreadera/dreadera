@@ -9,8 +9,8 @@ interface Dimensions {
 
 const useDimensions = (props: Props): Dimensions => {
     const [dimensions, setDimensions] = useState<Dimensions>({
-        height: undefined,
-        width: undefined
+        height: 0,
+        width: 0
     })
 
     function performResize(): void {
